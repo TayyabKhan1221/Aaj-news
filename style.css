@@ -1,0 +1,301 @@
+/* html ,body{
+    margin: 0;
+    padding: 0
+    ;
+}
+
+.main{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.logo{
+    width: 80px;
+
+}
+
+.nav-img{
+  text-align:  center;
+}
+
+.sec-main{
+    border: 2px solid black;
+    text-align: center;
+}
+
+.flex-div{
+    display: flex;
+}
+.seconnd-last{
+ width: 200px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-p {
+    line-height: 30px;
+}
+
+.nav-p span {
+    color: rgb(238, 194, 113);
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.nav-p p {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.nav-img img {
+    width: 80px;
+    height: 129px;
+}
+
+.nav-last {
+    line-height: 30px;
+}
+
+.nav-last span {
+    color: orange;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 29px;
+    cursor: pointer;
+}
+
+.nav-last p {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+div.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec-main h1 {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 50px;
+    padding: 10px;
+}
+
+.main-page .f-side h1 {
+    font-family: "Roboto condensed", sans-serif;
+    font-size: 12px;
+
+}
+
+.main-page .f-side span {
+    font-family: "Roboto condensed", sans-serif;
+    font-size: 12px;
+    color: #02bb9b;
+}
+
+.main-page .f-side .b-one {
+    width: 116px;
+    height: 33px;
+    background-color: black;
+    color: white;
+    font-family: "Roboto condensed";
+    border-radius: 10px;
+    border: none;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.main-page .f-side .a-change {
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(138, 130, 130);
+}
+
+.a-width {
+    width: 130px;
+}
+
+.f-side img {
+    width: 192px;
+    height: 92px;
+    display: inline-block;
+}
+
+hr {
+    width: 75%;
+}
+
+.m-side .m-side-img img {
+    width: 900px;
+    height: 360px;
+}
+
+.m-side .m-m fieldset legend button {
+    background-color: black;
+    color: white;
+    padding: 4px 12px 0px 12px;
+    font-size: 17px;
+    border: 1px solid black;
+}
+
+fieldset {
+    border: 1px solid black;
+    width: 600px;
+    height: 798.172px;
+}
+
+fieldset img {
+    width: 269px;
+    height: 169px;
+}
+
+fieldset span {
+    display: flex;
+    justify-content: space-around;
+}
+
+fieldset span p {
+    width: 250px;
+    font-size: 20px;
+}
+
+fieldset .m-m-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.l-main fieldset {
+    border: 1px solid #ef9f4c;
+    width: 295px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    height: auto;
+}
+
+.l-main .l-popular {
+    background-color: #e2eee2;
+    font-family: "Roboto condensed";
+    letter-spacing: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 50px;
+}
+
+.l-main p {
+    color: rgb(109, 104, 104);
+    font-size: 20px;
+}
+
+.hr-l-main {
+    width: 300px;
+    border: 1px solid rgb(242, 237, 237);
+}
+
+
+.main-page {
+    display: flex;
+    justify-content: space-around;
+}
+
+#hr {
+    width: 80%;
+    border: 1px solid black;
+    margin: 3px;
+}
+
+.life-f-h1 {
+    font-family: "Roboto condensed";
+    margin-left: 30px;
+}
+
+.life-f img {
+    width: 291.328px;
+    height: 252.797px;
+}
+
+.life-f p {
+    width: 200px;
+}
+
+.life-m .life-m-img {
+    width: 452px;
+    height: 279px;
+}
+
+.life-l .life-l-img {
+    width: 421px;
+    height: 252px;
+}
+
+.life-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-main img {
+    width: 197px;
+    height: 118px;
+}
+
+h6 {
+    font-family: "Roboto condensed";
+    color: #374151;
+    font-size: 15px;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-h1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-h1 .foot-h1 {
+    font-family: "Roboto condensed";
+}
+
+#hr-footer {
+    width: 100%;
+    border: 1px solid rgb(106, 99, 99);
+}
+
+footer img {
+    width: 32px;
+    height: 32px;
+}
+
+footer {
+    position: absolute;
+    left: 30px;
+}
+
+footer p{
+    margin-top: 10px;
+    color: rgb(79, 79, 75);
+    font-size: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(69, 65, 65);
+    font-size: 13px;
+    margin: 20px  190px;
+    letter-spacing: 1px;
+}
